@@ -1,0 +1,50 @@
+{
+  "title": "Emergency Resuscitation Simulation Rubric",
+  "description": "Sample evaluation rubric for ER mock resuscitation / sim wars drills. Customize items and weights as needed.",
+  "categories": [
+    {
+      "name": "Team Leadership & Communication",
+      "items": [
+        {"id": "TL1", "text": "Team leader clearly identified and assumed role", "weight": 2},
+        {"id": "TL2", "text": "Closed-loop communication used consistently", "weight": 2},
+        {"id": "TL3", "text": "Tasks delegated clearly to specific team members", "weight": 2},
+        {"id": "TL4", "text": "Situational awareness maintained (verbalized summary)", "weight": 1}
+      ]
+    },
+    {
+      "name": "Primary Survey (ABCDE)",
+      "items": [
+        {"id": "PS1", "text": "Airway assessed and managed appropriately", "weight": 2},
+        {"id": "PS2", "text": "Breathing assessed (look/listen/feel, O2 applied)", "weight": 2},
+        {"id": "PS3", "text": "Circulation assessed (pulse check, IV access, fluids)", "weight": 2},
+        {"id": "PS4", "text": "Disability assessed (GCS/AVPU, pupils)", "weight": 1},
+        {"id": "PS5", "text": "Exposure performed appropriately", "weight": 1}
+      ]
+    },
+    {
+      "name": "Resuscitation Skills",
+      "items": [
+        {"id": "RS1", "text": "CPR initiated promptly if indicated (correct rate/depth)", "weight": 2},
+        {"id": "RS2", "text": "Defibrillation/cardioversion performed correctly", "weight": 2},
+        {"id": "RS3", "text": "Medications administered correctly (drug, dose, route)", "weight": 2},
+        {"id": "RS4", "text": "Rhythm recognition and appropriate algorithm followed", "weight": 2}
+      ]
+    },
+    {
+      "name": "Situational Awareness & Prioritization",
+      "items": [
+        {"id": "SA1", "text": "Differential diagnoses considered and verbalized", "weight": 1},
+        {"id": "SA2", "text": "Appropriate escalation or consultation requested", "weight": 1},
+        {"id": "SA3", "text": "Time awareness maintained (e.g., 2-min rhythm checks)", "weight": 1}
+      ]
+    },
+    {
+      "name": "Professionalism & Safety",
+      "items": [
+        {"id": "PF1", "text": "PPE used appropriately", "weight": 1},
+        {"id": "PF2", "text": "Patient safety maintained throughout", "weight": 1},
+        {"id": "PF3", "text": "Respectful team interactions observed", "weight": 1}
+      ]
+    }
+  ]
+}
